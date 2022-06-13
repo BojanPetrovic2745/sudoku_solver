@@ -1,7 +1,7 @@
 CFLAGS = -std=c++11 -Wall -ggdb
 LIBS  = -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_ml
 LIBS += -lopencv_videoio -lopencv_features2d -lopencv_calib3d
-LIBS += -lopencv_imgcodecs
+LIBS += -lopencv_imgcodecs -lopencv_dnn
 
 INCS = -I/usr/local/include/opencv4
 
